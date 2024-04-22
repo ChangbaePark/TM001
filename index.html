@@ -63,8 +63,8 @@
             model = await tmImage.load(modelURL, metadataURL);
             maxPredictions = model.getTotalClasses();
 
-            const flip = true; // whether to flip the webcam
-            webcam = new tmImage.Webcam(200, 200, flip);
+            const flip = false; // whether to flip the webcam                         //후면 카메라 설정
+            webcam = new tmImage.Webcam(200, 200, flip, {facingMode: "environment"}); //후면 카메라 설정
             await webcam.setup();
             await webcam.play();
             window.requestAnimationFrame(loop);
