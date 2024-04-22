@@ -1,5 +1,5 @@
-# TM에서 만든 모델 웹앱 생성
-## html을 이용해 만든 웹 앱 입니다.
+# TM에서 만든 모델 웹 앱 생성
+## html을 이용해 만든 웹
 ## https://changbaepark.github.io/WebApp_TM001/
 
 # 1. 실행 결과
